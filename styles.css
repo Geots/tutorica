@@ -47,8 +47,8 @@ body {
 
 @font-face { font-family: Poppins-Bold; font-weight: bold; src: url('fonts/poppins/Poppins-Bold.otf');};
 
-@media all and (max-width : 480px) {
-    .title {
-        color: black;
+@media only screen and (max-device-width: 480px) {
+    .gif {
+        visibility: hidden;
     }
 }

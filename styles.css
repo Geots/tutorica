@@ -12,43 +12,47 @@ body {
     mix-blend-mode: luminosity;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 70%;
 }
 
 .vector-1 {
-    height: 100%;
+    bottom: 0;
+    height: 50%;
     position: absolute;
     width: 100%;
 }
 
 .title {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     font-family: Poppins-Bold;
     letter-spacing: 0.20px;
     line-height: 140%;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 10%;
 }
 
 .learn-something-or-everything {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     font-family: Poppins-Bold;
     letter-spacing: 0.20px;
     line-height: 110%;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
 }
 
-@font-face { font-family: Poppins-Bold; font-weight: bold; src: url('fonts/poppins/Poppins-Bold.otf');};
+.navbar {
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+    mix-blend-mode: normal;
+    position: absolute;
 
-@media only screen and (max-device-width: 480px) {
-    .gif {
-        visibility: hidden;
-    }
 }
+
+@font-face { font-family: Poppins-Bold; font-weight: bold; src: url('fonts/poppins/Poppins-Bold.otf');};

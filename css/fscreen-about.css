@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #1236b6;
+}
+
+.comingsoon {
+    display: block;
+    font-size: 30px;
+    font-family: Poppins-Regular;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sticker {
+    width: 10%;
+}
+
+.cont {
+    margin-right: 2em;
+    margin-top: 0.5em;
+    display: block;
+    color: white;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.cont:hover {
+    color: purple;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    z-index: 2;
+}
+
+.nav-base {
+    position: absolute;
+    border-radius: 10px;
+    top: 5px;
+    width: 35em;
+    height: auto;
+}
+
+.bell {
+    margin-top: 8px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.bell:hover {
+    width: 40%;
+}
+
+.current {
+    color: #11F3A2;
+    margin-right: 2em;
+    margin-top: 0.5em;
+    display: block;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.notf {
+    position: absolute;
+    border-radius: 10px;
+    top: 80px;
+    z-index: 2;
+    display: none;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.300), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.not {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.miniview {
+    display: none;
+}
+
+.mobileview {
+    display: none;
+}
+
+@font-face { 
+    font-family: Poppins-Bold; 
+    font-weight: bold; 
+    src: url('Fonts/poppins/Poppins-Bold.otf');
+}
+
+@font-face { 
+    font-family: Poppins-Regular; 
+    font-weight: bold; 
+    src: url('Fonts/poppins/Poppins-Regular.otf');
+}
